@@ -1,0 +1,4 @@
+
+groupCode = ""
+memberId = ""
+pin = ""
