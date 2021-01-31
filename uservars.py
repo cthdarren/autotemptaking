@@ -1,4 +1,0 @@
-
-groupCode = ""
-memberId = ""
-pin = ""
