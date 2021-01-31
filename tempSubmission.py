@@ -2,13 +2,13 @@ import random, os, requests, sys
 from datetime import datetime
 try:
     import uservars
-except ModuleNotFoundError:
+except ImportError:
     if not os.path.exists("uservars.py"):
         uservarFile = open("uservars.py", "a")
         uservarFile.writelines([
-            'groupCode = ""',
-            'memberId = ""',
-            'pin = ""'
+            'groupCode = ""\n',
+            'memberId = ""\n',
+            'pin = ""\n'
         ])
     sys.exit("uservars file has been generated, please fill in the relevant details in the file")
 
